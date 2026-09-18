@@ -1,0 +1,47 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+.vscode/
+.DS_Store
+Thumbs.db
+
+*.pyc
+*.pyo
+*.log
+
+.streamlit/secrets.toml
+
+# Intermediate processed data
+data/processed/*
+
+# Final dashboard/master datasets
+!data/processed/phase5_trial_master.csv
+!data/processed/phase5_trial_therapy_master.csv
+
+!data/processed/phase52_trial_starts_by_year.csv
+
+!data/processed/phase53_sponsor_competitive_landscape.csv
+!data/processed/phase53_market_concentration.csv
+
+!data/processed/phase54_mechanism_landscape_overall.csv
+!data/processed/phase54_mechanism_landscape_recent.csv
+!data/processed/phase54_mechanism_coverage_by_year.csv
+
+!data/processed/phase55_modality_landscape_overall.csv
+!data/processed/phase55_modality_recent_vs_historical.csv
+
+!data/processed/phase56_mechanism_maturity_summary.csv
+
+!data/processed/phase57_strategic_opportunity_matrix.csv
+
+# Final taxonomy outputs
+!data/processed/obesity_focal_therapy_taxonomy_final.csv
+!data/processed/therapy_identity_taxonomy_final.csv
+!data/processed/therapy_source_label_taxonomy_final.csv
+!data/processed/mechanism_superfamily_summary_final.csv
+
+# Large frozen ClinicalTrials.gov raw snapshot
+data/raw/*.json
+
+src/*.csv

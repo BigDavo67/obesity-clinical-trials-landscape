@@ -1,0 +1,35 @@
+mechanism_superfamily_final,unique_therapy_identities,recent_therapy_identities,active_therapy_identities,Early development,Mid development,Late development,Post-marketing,phase3plus_identities,recent_identity_share,active_identity_share,phase3plus_identity_share,industry_sponsor_groups,industry_trials,recent_industry_sponsor_groups,industry_sponsors_per_identity,recent_sponsors_per_identity,emerging_early_stage_flag,established_competitive_flag,recent_momentum_flag,low_late_stage_depth_flag,lower_sponsor_density_within_emerging,strategic_bucket
+Lean-mass preservation,9,9,7,3,6,0,0,0,1.0,0.7777777777777778,0.0,9,14,9,1.0,1.0,True,False,True,True,True,Emerging / lower sponsor density
+Adipose signalling/RNAi,6,6,6,6,0,0,0,0,1.0,1.0,0.0,4,6,4,0.6666666666666666,0.6666666666666666,True,False,True,True,True,Emerging / lower sponsor density
+Metabolic/energy expenditure,8,4,3,3,3,0,1,1,0.5,0.375,0.125,8,15,6,1.0,0.75,True,False,False,True,True,Emerging / lower sponsor density
+Melanocortin,4,4,4,1,2,1,0,1,1.0,1.0,0.25,3,18,3,0.75,0.75,True,False,True,False,True,Emerging / lower sponsor density
+Inflammation/metabolic,3,3,2,0,3,0,0,0,1.0,0.6666666666666666,0.0,3,4,3,1.0,1.0,True,False,True,True,True,Emerging / lower sponsor density
+Incretin-based,69,59,53,14,20,25,10,35,0.855072463768116,0.7681159420289855,0.5072463768115942,72,428,66,1.0434782608695652,0.9565217391304348,False,True,True,False,False,Established / competitive
+CNS/appetite,19,12,10,5,5,1,7,8,0.631578947368421,0.5263157894736842,0.42105263157894735,8,13,4,0.42105263157894735,0.21052631578947367,False,True,False,False,False,Established / competitive
+Amylin-based,8,8,7,2,3,3,0,3,1.0,0.875,0.375,8,68,7,1.0,0.875,False,True,True,False,False,Established / competitive
+Incretin + amylin,4,4,3,1,1,2,0,2,1.0,0.75,0.5,3,32,3,0.75,0.75,False,False,True,False,False,Intermediate / mixed
+Renal/glucose transport,5,3,3,0,2,0,3,3,0.6,0.6,0.6,2,5,1,0.4,0.2,False,True,False,False,False,Established / competitive
+GI nutrient absorption,3,2,2,0,1,0,2,2,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,5,1,0.6666666666666666,0.3333333333333333,False,False,False,False,False,Intermediate / mixed
+Mixed/unspecified,4,1,1,0,0,0,3,3,0.25,0.25,0.75,2,2,0,0.5,0.0,False,False,False,False,False,Intermediate / mixed
+Incretin + metabolic/hepatokine,3,1,1,2,1,0,0,0,0.3333333333333333,0.3333333333333333,0.0,3,4,1,1.0,0.3333333333333333,False,False,False,True,False,Intermediate / mixed
+GI nutrient absorption/metabolism,2,1,0,1,1,0,0,0,0.5,0.0,0.0,2,3,1,1.0,0.5,False,False,False,False,False,Niche / limited evidence
+CNS/metabolic,1,1,0,1,0,0,0,0,1.0,0.0,0.0,1,1,1,1.0,1.0,False,False,False,False,False,Niche / limited evidence
+CNS/peripheral appetite-metabolic,1,1,1,1,0,0,0,0,1.0,1.0,0.0,1,1,1,1.0,1.0,False,False,False,False,False,Niche / limited evidence
+Cytokine/metabolic,1,1,0,0,1,0,0,0,1.0,0.0,0.0,1,1,1,1.0,1.0,False,False,False,False,False,Niche / limited evidence
+Exercise-mimetic/metabolic,1,1,0,0,1,0,0,0,1.0,0.0,0.0,1,1,1,1.0,1.0,False,False,False,False,False,Niche / limited evidence
+GI nutrient sensing/barrier,1,1,0,0,1,0,0,0,1.0,0.0,0.0,1,1,1,1.0,1.0,False,False,False,False,False,Niche / limited evidence
+GI/pancreatic nutrient sensing,1,1,0,1,0,0,0,0,1.0,0.0,0.0,1,2,1,1.0,1.0,False,False,False,False,False,Niche / limited evidence
+Incretin + growth-factor,1,1,1,0,1,0,0,0,1.0,1.0,0.0,1,2,1,1.0,1.0,False,False,False,False,False,Niche / limited evidence
+Incretin pathway modulation,1,1,1,0,1,0,0,0,1.0,1.0,0.0,1,1,1,1.0,1.0,False,False,False,False,False,Niche / limited evidence
+Leptin pathway,1,1,1,0,0,1,0,1,1.0,1.0,1.0,2,2,2,2.0,2.0,False,False,False,False,False,Niche / limited evidence
+Glucagon pathway,2,0,0,2,0,0,0,0,0.0,0.0,0.0,2,3,0,1.0,0.0,False,False,False,False,False,Niche / limited evidence
+Metabolic combination,2,0,0,0,0,1,1,2,0.0,0.0,1.0,0,0,0,0.0,0.0,False,False,False,False,False,Niche / limited evidence
+Metabolic/FGF21 pathway,2,0,0,2,0,0,0,0,0.0,0.0,0.0,2,4,0,1.0,0.0,False,False,False,False,False,Niche / limited evidence
+Adiponectin pathway,1,0,0,1,0,0,0,0,0.0,0.0,0.0,1,1,0,1.0,0.0,False,False,False,False,False,Niche / limited evidence
+GI motility/appetite,1,0,0,0,1,0,0,0,0.0,0.0,0.0,0,0,0,0.0,0.0,False,False,False,False,False,Niche / limited evidence
+GI/CNS gut-brain appetite,1,0,0,0,1,0,0,0,0.0,0.0,0.0,1,2,0,1.0,0.0,False,False,False,False,False,Niche / limited evidence
+Metabolic/insulin sensitisation,1,0,1,1,0,0,0,0,0.0,1.0,0.0,1,1,0,1.0,0.0,False,False,False,False,False,Niche / limited evidence
+Metabolic/insulin-leptin sensitisation,1,0,0,0,1,0,0,0,0.0,0.0,0.0,1,1,0,1.0,0.0,False,False,False,False,False,Niche / limited evidence
+Metabolic/lipid handling,1,0,0,1,0,0,0,0,0.0,0.0,0.0,0,0,0,0.0,0.0,False,False,False,False,False,Niche / limited evidence
+Metabolic/oxidative stress,1,0,0,1,0,0,0,0,0.0,0.0,0.0,1,1,0,1.0,0.0,False,False,False,False,False,Niche / limited evidence
+Oxytocin,1,0,1,0,1,0,0,0,0.0,1.0,0.0,0,0,0,0.0,0.0,False,False,False,False,False,Niche / limited evidence

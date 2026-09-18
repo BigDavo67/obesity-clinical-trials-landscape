@@ -1,0 +1,35 @@
+mechanism_superfamily_final,verified_pair_count,unique_trials,unique_therapy_identities,share_of_verified_pairs,rank_by_pair_count
+Incretin-based,640,596,69,0.6584362139917695,1
+CNS/appetite,84,75,19,0.08641975308641975,2
+Amylin-based,69,68,8,0.07098765432098765,3
+Incretin + amylin,32,32,4,0.03292181069958848,4
+Metabolic/energy expenditure,27,27,8,0.027777777777777776,5
+Melanocortin,19,19,4,0.01954732510288066,6
+Lean-mass preservation,15,15,9,0.015432098765432098,7
+Renal/glucose transport,13,13,5,0.013374485596707819,8
+GI nutrient absorption,12,10,3,0.012345679012345678,9
+Adipose signalling/RNAi,6,6,6,0.006172839506172839,10
+Oxytocin,6,6,1,0.006172839506172839,11
+Mixed/unspecified,4,4,4,0.00411522633744856,12
+Incretin + metabolic/hepatokine,4,4,3,0.00411522633744856,13
+Inflammation/metabolic,4,4,3,0.00411522633744856,14
+Metabolic combination,4,3,2,0.00411522633744856,15
+Metabolic/FGF21 pathway,4,4,2,0.00411522633744856,16
+GI nutrient absorption/metabolism,3,3,2,0.0030864197530864196,17
+Glucagon pathway,3,3,2,0.0030864197530864196,18
+GI motility/appetite,2,2,1,0.00205761316872428,19
+GI/CNS gut-brain appetite,2,2,1,0.00205761316872428,20
+GI/pancreatic nutrient sensing,2,2,1,0.00205761316872428,21
+Incretin + growth-factor,2,2,1,0.00205761316872428,22
+Incretin pathway modulation,2,1,1,0.00205761316872428,23
+Leptin pathway,2,2,1,0.00205761316872428,24
+Metabolic/insulin sensitisation,2,2,1,0.00205761316872428,25
+Adiponectin pathway,1,1,1,0.00102880658436214,26
+CNS/metabolic,1,1,1,0.00102880658436214,27
+CNS/peripheral appetite-metabolic,1,1,1,0.00102880658436214,28
+Cytokine/metabolic,1,1,1,0.00102880658436214,29
+Exercise-mimetic/metabolic,1,1,1,0.00102880658436214,30
+GI nutrient sensing/barrier,1,1,1,0.00102880658436214,31
+Metabolic/insulin-leptin sensitisation,1,1,1,0.00102880658436214,32
+Metabolic/lipid handling,1,1,1,0.00102880658436214,33
+Metabolic/oxidative stress,1,1,1,0.00102880658436214,34

@@ -1,0 +1,8 @@
+modality_group_final,verified_pair_count,unique_trials,unique_therapy_identities,share_of_verified_pairs
+Peptide-based,634,566,63,0.6522633744855967
+Small molecule,194,184,58,0.19958847736625515
+Combination / mixed modality,67,60,17,0.06893004115226338
+Antibody / protein biologic,65,65,23,0.0668724279835391
+RNA / oligonucleotide,6,6,6,0.006172839506172839
+Unknown / unspecified,4,4,1,0.00411522633744856
+Gut-restricted / other,2,2,2,0.00205761316872428
