@@ -9,6 +9,19 @@ The final output is an interactive **Streamlit dashboard** supported by a cleane
 
 ---
 
+## Dashboard preview
+
+### Overview
+![Overview dashboard](Overview.png)
+
+### Mechanism Landscape
+![Mechanism dashboard](Mechanisms.png)
+
+### Strategic signals
+![Strategic signals dashboard](Signals.png)
+
+---
+
 ## Project overview
 
 Obesity drug development has changed rapidly following the success of GLP-1 and multi-agonist therapies. This project was built to answer five questions:
@@ -118,6 +131,16 @@ Frozen candidate dataset:
 - **899 collaborators**
 
 The API snapshot was intentionally frozen before cleaning and classification so downstream results remain reproducible.
+
+### Raw data
+
+The analysis was built from a frozen ClinicalTrials.gov API v2 snapshot collected on 17 September 2026.
+
+The raw JSON snapshot (~93 MB) is not included in this repository due to file size.
+
+The extraction logic is available in `src/fetch_trials.py`. The processed datasets used for the published analysis and dashboard are included under `data/processed/`.
+
+Running the extraction script again may produce different results because ClinicalTrials.gov records are continually updated.
 
 ### Final analysis population
 
