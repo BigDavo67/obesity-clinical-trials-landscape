@@ -1,24 +1,11 @@
 # Next-Generation Obesity Therapeutics
 ## Clinical Pipeline & Competitive Landscape
 
-An end-to-end analysis of the global obesity pharmacotherapy clinical-development landscape using a frozen ClinicalTrials.gov API v2 snapshot.
+An end-to-end analysis of the global obesity pharmacotherapy clinical-development landscape using a frozen **ClinicalTrials.gov API v2** snapshot.
 
 The project tracks how obesity drug development has evolved since 2015, identifies the most active sponsors and mechanisms, measures shifts in therapeutic modality, and highlights emerging areas of pipeline activity.
 
-The final output is an interactive Streamlit dashboard supported by a cleaned and manually validated trial/therapy taxonomy.
-
----
-
-## Dashboard preview
-
-### Overview
-![Overview dashboard](Overview.png)
-
-### Mechanism Landscape
-![Mechanism dashboard](Mechanisms.png)
-
-### Strategic Signals
-![Strategic signals](Signals.png)
+The final output is an interactive **Streamlit dashboard** supported by a cleaned and manually validated trial/therapy taxonomy.
 
 ---
 
@@ -26,16 +13,16 @@ The final output is an interactive Streamlit dashboard supported by a cleaned an
 
 Obesity drug development has changed rapidly following the success of GLP-1 and multi-agonist therapies. This project was built to answer five questions:
 
-1. How quickly is the obesity pharmacotherapy pipeline growing?
-2. Which companies are leading clinical-development activity?
-3. Which mechanisms dominate the pipeline, and how has this changed over time?
-4. How are therapeutic modalities evolving?
-5. Which mechanisms show strong recent activity but limited late-stage development?
+1. **How quickly is the obesity pharmacotherapy pipeline growing?**
+2. **Which companies are leading clinical-development activity?**
+3. **Which mechanisms dominate the pipeline, and how has this changed over time?**
+4. **How are therapeutic modalities evolving?**
+5. **Which mechanisms show strong recent activity but limited late-stage development?**
 
 The analysis distinguishes between:
 
-- Trial-level activity — one row per clinical trial
-- Trial × focal-therapy activity — one row per obesity therapy evaluated within a trial
+- **Trial-level activity** — one row per clinical trial
+- **Trial × focal-therapy activity** — one row per obesity therapy evaluated within a trial
 
 This prevents multi-therapy studies from being incorrectly counted as a single mechanism.
 
@@ -45,36 +32,36 @@ This prevents multi-therapy studies from being incorrectly counted as a single m
 
 ### Pipeline growth
 
-- Annual trial starts increased from *17 in 2015 to 206 in 2025*
-- This corresponds to a *28.3% CAGR*
-- Trial starts grew *60.4% in 2024** and a further *41.1% in 2025*
-- By *17 September 2026*, *200 trials* had definitely started
-- A further *9 September 2026 month-precision records* could also have started by the snapshot date
-- *17 future planned starts* were excluded from the 2026 YTD total
+- Annual trial starts increased from **17 in 2015 to 206 in 2025**
+- This corresponds to a **28.3% CAGR**
+- Trial starts grew **60.4% in 2024** and a further **41.1% in 2025**
+- By **17 September 2026**, **200 trials** had definitely started
+- A further **9 September 2026 month-precision records** could also have started by the snapshot date
+- **17 future planned starts** were excluded from the 2026 YTD total
 
 ### Competitive landscape
 
 Among **700 industry-sponsored trials**:
 
-- *Novo Nordisk:* 138 trials
-- *Eli Lilly:* 103 trials
-- Top 2 sponsors account for *34.4%* of industry trials
-- Top 5 sponsors account for *44.6%*
-- Industry HHI = *690*, indicating a relatively fragmented sponsor landscape outside the two leaders
+- **Novo Nordisk:** 138 trials
+- **Eli Lilly:** 103 trials
+- Top 2 sponsors account for **34.4%** of industry trials
+- Top 5 sponsors account for **44.6%**
+- Industry HHI = **690**, indicating a relatively fragmented sponsor landscape outside the two leaders
 
 Portfolio breadth also differs materially by sponsor:
 
-- *Novo Nordisk:* 35 therapy identities across 7 mechanism superfamilies
-- *Eli Lilly:* 24 therapy identities across 5 mechanism superfamilies
+- **Novo Nordisk:** 35 therapy identities across 7 mechanism superfamilies
+- **Eli Lilly:** 24 therapy identities across 5 mechanism superfamilies
 
 ### Mechanism evolution
 
-Across *972 verified trial × therapy mechanism pairs*:
+Across **972 verified trial × therapy mechanism pairs**:
 
-- *Incretin-based:* 65.8%
-- *CNS/appetite:* 8.6%
-- *Amylin-based:* 7.1%
-- *Incretin + amylin:* 3.3%
+- **Incretin-based:** 65.8%
+- **CNS/appetite:** 8.6%
+- **Amylin-based:** 7.1%
+- **Incretin + amylin:** 3.3%
 
 The mechanism mix has shifted substantially:
 
@@ -90,15 +77,15 @@ The mechanism mix has shifted substantially:
 
 Overall verified pipeline activity is dominated by:
 
-- *Peptide-based:* 65.2%
-- *Small molecule:* 20.0%
-- *Combination / mixed modality:* 6.9%
-- *Antibody / protein biologic:* 6.7%
-- *RNA / oligonucleotide:* 0.6%
+- **Peptide-based:** 65.2%
+- **Small molecule:** 20.0%
+- **Combination / mixed modality:** 6.9%
+- **Antibody / protein biologic:** 6.7%
+- **RNA / oligonucleotide:** 0.6%
 
 Recent development shows greater modality diversification:
 
-- Antibody/protein biologics increased from *4.2% → 8.0%*
+- Antibody/protein biologics increased from **4.2% → 8.0%**
 - RNA/oligonucleotide therapies appear only in the recent period in this dataset
 
 ### Emerging pipeline signals
@@ -113,7 +100,7 @@ Several mechanisms combine strong recent activity with limited late-stage depth:
 | Melanocortin | 4 | 100% | 1 |
 | Metabolic / energy expenditure | 8 | 50% | 1 |
 
-These are descriptive pipeline signals rather than commercial forecasts.
+These are **descriptive pipeline signals rather than commercial forecasts**.
 
 ---
 
@@ -121,46 +108,36 @@ These are descriptive pipeline signals rather than commercial forecasts.
 
 ### Source
 
-Clinical trial data were collected using the ClinicalTrials.gov API v2.
+Clinical trial data were collected using the **ClinicalTrials.gov API v2**.
 
 Frozen candidate dataset:
 
-- *2,283 trials*
-- *5,278 interventions*
-- *24,763 locations*
-- *899 collaborators*
+- **2,283 trials**
+- **5,278 interventions**
+- **24,763 locations**
+- **899 collaborators**
 
 The API snapshot was intentionally frozen before cleaning and classification so downstream results remain reproducible.
-
-# Raw data
-
-The analysis was built from a frozen ClinicalTrials.gov API v2 snapshot collected on 17 September 2026.
-
-The raw JSON snapshot (~93 MB) is not included in this repository due to file size.
-
-The extraction logic is available in `src/fetch_trials.py`. The processed datasets used for the published analysis and dashboard are included under `data/processed/`.
-
-Running the extraction script again may produce different results because ClinicalTrials.gov records are continually updated.
 
 ### Final analysis population
 
 After scope review and intervention-role adjudication:
 
-- *986 included clinical trials*
-- *1,186 unique trial × focal-therapy pairs*
-- *371 canonical therapy identities*
-- *972 verified / verified-alias mechanism pairs*
-- *26 researched but publicly unresolved pairs*
-- *188 unreviewed long-tail pairs*
-- *0 identity-mapping conflicts*
+- **986 included clinical trials**
+- **1,186 unique trial × focal-therapy pairs**
+- **371 canonical therapy identities**
+- **972 verified / verified-alias mechanism pairs**
+- **26 researched but publicly unresolved pairs**
+- **188 unreviewed long-tail pairs**
+- **0 identity-mapping conflicts**
 
-Mechanism coverage across the final trial × therapy dataset is therefore *82.0%*.
+Mechanism coverage across the final trial × therapy dataset is therefore **82.0%**.
 
 ---
 
 ## Scope
 
-Included studies were global ClinicalTrials.gov interventional trials starting from *2015–2026* where pharmacological treatment of obesity/overweight was a central development objective.
+Included studies were global ClinicalTrials.gov interventional trials starting from **2015–2026** where pharmacological treatment of obesity/overweight was a central development objective.
 
 The scope includes:
 
@@ -260,8 +237,8 @@ Obscure or publicly undisclosed mechanisms were retained as unresolved rather th
 
 The final cleaned trial and therapy taxonomies were joined into:
 
-- a *trial master table*
-- a *trial × therapy master table*
+- a **trial master table**
+- a **trial × therapy master table**
 
 These power the downstream competitive, mechanism, modality and maturity analyses.
 
@@ -278,13 +255,13 @@ Tracks annual trial starts and development-stage mix from 2015–2026.
 Measures trial volume, recent starts, active trials, therapy-portfolio breadth, mechanism breadth, Phase 3/4 exposure and market concentration.
 
 ### Mechanism landscape
-Compares mechanism mix overall, by year, by pipeline stage, and between *2015–2022 vs 2023–2026 YTD*.
+Compares mechanism mix overall, by year, by pipeline stage, and between **2015–2022 vs 2023–2026 YTD**.
 
 ### Modality landscape
 Tracks shifts between peptides, small molecules, antibody/protein biologics, RNA/oligonucleotide therapies, mixed/combination approaches and other modalities.
 
 ### Pipeline maturity
-Measures mechanism maturity using the *highest observed development stage per therapy identity*, rather than raw trial count alone.
+Measures mechanism maturity using the **highest observed development stage per therapy identity**, rather than raw trial count alone.
 
 ### Strategic signals
 Combines therapy breadth, recent activity, late-stage penetration and sponsor density to distinguish emerging early-stage areas from established competitive mechanisms.
@@ -354,17 +331,17 @@ obesity-clinical-trials-landscape/
 
 ### 2026 YTD
 
-The snapshot date is *17 September 2026*.
+The snapshot date is **17 September 2026**.
 
 ClinicalTrials.gov reports some start dates only to month precision.
 
 Therefore:
 
-- *200* 2026 trials were definitely started by the snapshot date
-- *9* September 2026 trials had month-level precision and uncertain exact timing
-- *17* trials had reported starts after the snapshot and were excluded from YTD counts
+- **200** 2026 trials were definitely started by the snapshot date
+- **9** September 2026 trials had month-level precision and uncertain exact timing
+- **17** trials had reported starts after the snapshot and were excluded from YTD counts
 
-The dashboard uses the conservative *200 confirmed starts* as its headline 2026 YTD figure.
+The dashboard uses the conservative **200 confirmed starts** as its headline 2026 YTD figure.
 
 ### Mechanism-share calculations
 
@@ -382,7 +359,7 @@ This prevents a trial evaluating multiple focal obesity therapies from being dou
 
 ## Limitations
 
-This project should be interpreted as a *clinical-development landscape*, not a complete commercial forecast.
+This project should be interpreted as a **clinical-development landscape**, not a complete commercial forecast.
 
 Important limitations include:
 
