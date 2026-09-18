@@ -3,6 +3,8 @@
 
 An end-to-end analysis of the global obesity pharmacotherapy clinical-development landscape using a frozen **ClinicalTrials.gov API v2** snapshot.
 
+**Live dashboard:** [Open the Streamlit app](https://obesity-clinical-trials-landscape.streamlit.app/)
+
 The project tracks how obesity drug development has evolved since 2015, identifies the most active sponsors and mechanisms, measures shifts in therapeutic modality, and highlights emerging areas of pipeline activity.
 
 The final output is an interactive **Streamlit dashboard** supported by a cleaned and manually validated trial/therapy taxonomy.
