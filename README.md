@@ -12,13 +12,13 @@ The final output is an interactive **Streamlit dashboard** supported by a cleane
 ## Dashboard preview
 
 ### Overview
-![Overview dashboard](Overview.png)
+![Overview dashboard](assets/Overview.png)
 
 ### Mechanism Landscape
-![Mechanism dashboard](Mechanisms.png)
+![Mechanism dashboard](assets/Mechanisms.png)
 
 ### Strategic signals
-![Strategic signals dashboard](Signals.png)
+![Strategic signals dashboard](assets/Signals.png)
 
 ---
 
